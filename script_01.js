@@ -41,3 +41,16 @@ function ausgabeNameParam(firstName, familyName) {
 }
 ausgabeNameParam("Tst", "hhdh");
 
+/********Funktion 03a ******/
+// 3a Vorbereitung
+// Postulat: one function = one job (uncle BOB)
+// SRP single responsibility principle
+
+function ausgabeNameParam(firstName, familyName) {
+
+    //1. funktionalität: string composing
+    const gap = " ";
+    const outputStr = "Hallo " +  firstName + gap + familyName + "!"
+    console.log(outputStr)
+}
+ausgabeNameParam("Tst", "hhdh");
